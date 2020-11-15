@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E96E044A25618595009ED320 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96E044925618595009ED320 /* AppDelegate.swift */; };
+		E96E044C25618595009ED320 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96E044B25618595009ED320 /* SceneDelegate.swift */; };
+		E96E044E25618595009ED320 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96E044D25618595009ED320 /* ViewController.swift */; };
+		E96E045125618595009ED320 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E96E044F25618595009ED320 /* Main.storyboard */; };
+		E96E045425618595009ED320 /* ShadowrunHelper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E96E045225618595009ED320 /* ShadowrunHelper.xcdatamodeld */; };
+		E96E045625618598009ED320 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E96E045525618598009ED320 /* Assets.xcassets */; };
+		E96E045925618598009ED320 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E96E045725618598009ED320 /* LaunchScreen.storyboard */; };
+		E96E046425618598009ED320 /* ShadowrunHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96E046325618598009ED320 /* ShadowrunHelperTests.swift */; };
+		E96E046F25618598009ED320 /* ShadowrunHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96E046E25618598009ED320 /* ShadowrunHelperUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E96E046025618598009ED320 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E96E043E25618595009ED320 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E96E044525618595009ED320;
+			remoteInfo = ShadowrunHelper;
+		};
+		E96E046B25618598009ED320 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E96E043E25618595009ED320 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E96E044525618595009ED320;
+			remoteInfo = ShadowrunHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E96E044625618595009ED320 /* ShadowrunHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadowrunHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E96E044925618595009ED320 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E96E044B25618595009ED320 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E96E044D25618595009ED320 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E96E045025618595009ED320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E96E045325618595009ED320 /* ShadowrunHelper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShadowrunHelper.xcdatamodel; sourceTree = "<group>"; };
+		E96E045525618598009ED320 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E96E045825618598009ED320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E96E045A25618598009ED320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E96E045F25618598009ED320 /* ShadowrunHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShadowrunHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E96E046325618598009ED320 /* ShadowrunHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowrunHelperTests.swift; sourceTree = "<group>"; };
+		E96E046525618598009ED320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E96E046A25618598009ED320 /* ShadowrunHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShadowrunHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E96E046E25618598009ED320 /* ShadowrunHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowrunHelperUITests.swift; sourceTree = "<group>"; };
+		E96E047025618598009ED320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E96E044325618595009ED320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96E045C25618598009ED320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96E046725618598009ED320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E96E043D25618595009ED320 = {
+			isa = PBXGroup;
+			children = (
+				E96E044825618595009ED320 /* ShadowrunHelper */,
+				E96E046225618598009ED320 /* ShadowrunHelperTests */,
+				E96E046D25618598009ED320 /* ShadowrunHelperUITests */,
+				E96E044725618595009ED320 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E96E044725618595009ED320 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E96E044625618595009ED320 /* ShadowrunHelper.app */,
+				E96E045F25618598009ED320 /* ShadowrunHelperTests.xctest */,
+				E96E046A25618598009ED320 /* ShadowrunHelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E96E044825618595009ED320 /* ShadowrunHelper */ = {
+			isa = PBXGroup;
+			children = (
+				E96E044925618595009ED320 /* AppDelegate.swift */,
+				E96E044B25618595009ED320 /* SceneDelegate.swift */,
+				E96E044D25618595009ED320 /* ViewController.swift */,
+				E96E044F25618595009ED320 /* Main.storyboard */,
+				E96E045525618598009ED320 /* Assets.xcassets */,
+				E96E045725618598009ED320 /* LaunchScreen.storyboard */,
+				E96E045A25618598009ED320 /* Info.plist */,
+				E96E045225618595009ED320 /* ShadowrunHelper.xcdatamodeld */,
+			);
+			path = ShadowrunHelper;
+			sourceTree = "<group>";
+		};
+		E96E046225618598009ED320 /* ShadowrunHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				E96E046325618598009ED320 /* ShadowrunHelperTests.swift */,
+				E96E046525618598009ED320 /* Info.plist */,
+			);
+			path = ShadowrunHelperTests;
+			sourceTree = "<group>";
+		};
+		E96E046D25618598009ED320 /* ShadowrunHelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E96E046E25618598009ED320 /* ShadowrunHelperUITests.swift */,
+				E96E047025618598009ED320 /* Info.plist */,
+			);
+			path = ShadowrunHelperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E96E044525618595009ED320 /* ShadowrunHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E96E047325618598009ED320 /* Build configuration list for PBXNativeTarget "ShadowrunHelper" */;
+			buildPhases = (
+				E96E044225618595009ED320 /* Sources */,
+				E96E044325618595009ED320 /* Frameworks */,
+				E96E044425618595009ED320 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShadowrunHelper;
+			productName = ShadowrunHelper;
+			productReference = E96E044625618595009ED320 /* ShadowrunHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E96E045E25618598009ED320 /* ShadowrunHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E96E047625618598009ED320 /* Build configuration list for PBXNativeTarget "ShadowrunHelperTests" */;
+			buildPhases = (
+				E96E045B25618598009ED320 /* Sources */,
+				E96E045C25618598009ED320 /* Frameworks */,
+				E96E045D25618598009ED320 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E96E046125618598009ED320 /* PBXTargetDependency */,
+			);
+			name = ShadowrunHelperTests;
+			productName = ShadowrunHelperTests;
+			productReference = E96E045F25618598009ED320 /* ShadowrunHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E96E046925618598009ED320 /* ShadowrunHelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E96E047925618598009ED320 /* Build configuration list for PBXNativeTarget "ShadowrunHelperUITests" */;
+			buildPhases = (
+				E96E046625618598009ED320 /* Sources */,
+				E96E046725618598009ED320 /* Frameworks */,
+				E96E046825618598009ED320 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E96E046C25618598009ED320 /* PBXTargetDependency */,
+			);
+			name = ShadowrunHelperUITests;
+			productName = ShadowrunHelperUITests;
+			productReference = E96E046A25618598009ED320 /* ShadowrunHelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E96E043E25618595009ED320 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					E96E044525618595009ED320 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					E96E045E25618598009ED320 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = E96E044525618595009ED320;
+					};
+					E96E046925618598009ED320 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = E96E044525618595009ED320;
+					};
+				};
+			};
+			buildConfigurationList = E96E044125618595009ED320 /* Build configuration list for PBXProject "ShadowrunHelper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E96E043D25618595009ED320;
+			productRefGroup = E96E044725618595009ED320 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E96E044525618595009ED320 /* ShadowrunHelper */,
+				E96E045E25618598009ED320 /* ShadowrunHelperTests */,
+				E96E046925618598009ED320 /* ShadowrunHelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E96E044425618595009ED320 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E96E045925618598009ED320 /* LaunchScreen.storyboard in Resources */,
+				E96E045625618598009ED320 /* Assets.xcassets in Resources */,
+				E96E045125618595009ED320 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96E045D25618598009ED320 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96E046825618598009ED320 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E96E044225618595009ED320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E96E044E25618595009ED320 /* ViewController.swift in Sources */,
+				E96E044A25618595009ED320 /* AppDelegate.swift in Sources */,
+				E96E044C25618595009ED320 /* SceneDelegate.swift in Sources */,
+				E96E045425618595009ED320 /* ShadowrunHelper.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96E045B25618598009ED320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E96E046425618598009ED320 /* ShadowrunHelperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96E046625618598009ED320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E96E046F25618598009ED320 /* ShadowrunHelperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E96E046125618598009ED320 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E96E044525618595009ED320 /* ShadowrunHelper */;
+			targetProxy = E96E046025618598009ED320 /* PBXContainerItemProxy */;
+		};
+		E96E046C25618598009ED320 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E96E044525618595009ED320 /* ShadowrunHelper */;
+			targetProxy = E96E046B25618598009ED320 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E96E044F25618595009ED320 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E96E045025618595009ED320 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E96E045725618598009ED320 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E96E045825618598009ED320 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E96E047125618598009ED320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E96E047225618598009ED320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E96E047425618598009ED320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRC3GPUBU4;
+				INFOPLIST_FILE = ShadowrunHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedrohenrique.ShadowrunHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E96E047525618598009ED320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRC3GPUBU4;
+				INFOPLIST_FILE = ShadowrunHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedrohenrique.ShadowrunHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E96E047725618598009ED320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRC3GPUBU4;
+				INFOPLIST_FILE = ShadowrunHelperTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedrohenrique.ShadowrunHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShadowrunHelper.app/ShadowrunHelper";
+			};
+			name = Debug;
+		};
+		E96E047825618598009ED320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRC3GPUBU4;
+				INFOPLIST_FILE = ShadowrunHelperTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedrohenrique.ShadowrunHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShadowrunHelper.app/ShadowrunHelper";
+			};
+			name = Release;
+		};
+		E96E047A25618598009ED320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRC3GPUBU4;
+				INFOPLIST_FILE = ShadowrunHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedrohenrique.ShadowrunHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShadowrunHelper;
+			};
+			name = Debug;
+		};
+		E96E047B25618598009ED320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRC3GPUBU4;
+				INFOPLIST_FILE = ShadowrunHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedrohenrique.ShadowrunHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShadowrunHelper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E96E044125618595009ED320 /* Build configuration list for PBXProject "ShadowrunHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96E047125618598009ED320 /* Debug */,
+				E96E047225618598009ED320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E96E047325618598009ED320 /* Build configuration list for PBXNativeTarget "ShadowrunHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96E047425618598009ED320 /* Debug */,
+				E96E047525618598009ED320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E96E047625618598009ED320 /* Build configuration list for PBXNativeTarget "ShadowrunHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96E047725618598009ED320 /* Debug */,
+				E96E047825618598009ED320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E96E047925618598009ED320 /* Build configuration list for PBXNativeTarget "ShadowrunHelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96E047A25618598009ED320 /* Debug */,
+				E96E047B25618598009ED320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E96E045225618595009ED320 /* ShadowrunHelper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E96E045325618595009ED320 /* ShadowrunHelper.xcdatamodel */,
+			);
+			currentVersion = E96E045325618595009ED320 /* ShadowrunHelper.xcdatamodel */;
+			path = ShadowrunHelper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E96E043E25618595009ED320 /* Project object */;
+}
